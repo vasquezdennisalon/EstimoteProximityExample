@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let credentials = CloudCredentials(appID: "aupar-ios-cbx", appToken: "51cf40fce50dd285efa57e30e6a91631")
+        let credentials = CloudCredentials(appID: "xxxxxxxxxx", appToken: "xxxxxxxxxxxxxxxxxxxxxxxxxx")
         let pObserver1:ProximityObserver = ProximityObserver(credentials: credentials, onError: {error in
             print("ERROR OBSERVER: dynamic \n ERROR: \(error)")
         })
