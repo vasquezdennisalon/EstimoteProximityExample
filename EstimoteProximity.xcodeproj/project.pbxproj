@@ -14,6 +14,9 @@
 		26D707AA21236F3800ACA916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D707A821236F3800ACA916 /* LaunchScreen.storyboard */; };
 		26D707B521236F3800ACA916 /* EstimoteProximityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D707B421236F3800ACA916 /* EstimoteProximityTests.swift */; };
 		26D707C021236F3800ACA916 /* EstimoteProximityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D707BF21236F3800ACA916 /* EstimoteProximityUITests.swift */; };
+		560E7E6E8A2C073AD5149B56 /* Pods_EstimoteProximity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6EE69C7043521BBA92911F /* Pods_EstimoteProximity.framework */; };
+		83D40FD5D689832FCFD143A7 /* Pods_EstimoteProximityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49F35124CB5C4271BB754B9 /* Pods_EstimoteProximityUITests.framework */; };
+		A2B7FF6F19986FE7D099BFAC /* Pods_EstimoteProximityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B661D14CB15C38CCA01BCB3 /* Pods_EstimoteProximityTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B661D14CB15C38CCA01BCB3 /* Pods_EstimoteProximityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstimoteProximityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D7079C21236F3700ACA916 /* EstimoteProximity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstimoteProximity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D7079F21236F3700ACA916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26D707A121236F3700ACA916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		26D707BB21236F3800ACA916 /* EstimoteProximityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstimoteProximityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D707BF21236F3800ACA916 /* EstimoteProximityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimoteProximityUITests.swift; sourceTree = "<group>"; };
 		26D707C121236F3800ACA916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB04F66CE6FE093129ACB5E /* Pods-EstimoteProximityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteProximityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteProximityTests/Pods-EstimoteProximityTests.release.xcconfig"; sourceTree = "<group>"; };
+		795F576C73E89C5E379A871B /* Pods-EstimoteProximity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteProximity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteProximity/Pods-EstimoteProximity.debug.xcconfig"; sourceTree = "<group>"; };
+		8453DE6EE6600D40E81768F1 /* Pods-EstimoteProximityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteProximityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteProximityUITests/Pods-EstimoteProximityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1189227E4CB73A8F3F02EF /* Pods-EstimoteProximityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteProximityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteProximityTests/Pods-EstimoteProximityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A27595A7B9A386640DE15165 /* Pods-EstimoteProximity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteProximity.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteProximity/Pods-EstimoteProximity.release.xcconfig"; sourceTree = "<group>"; };
+		C49F35124CB5C4271BB754B9 /* Pods_EstimoteProximityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstimoteProximityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6EE69C7043521BBA92911F /* Pods_EstimoteProximity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstimoteProximity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6E76B9A72B9C448A8160E8 /* Pods-EstimoteProximityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstimoteProximityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstimoteProximityUITests/Pods-EstimoteProximityUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560E7E6E8A2C073AD5149B56 /* Pods_EstimoteProximity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B7FF6F19986FE7D099BFAC /* Pods_EstimoteProximityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D40FD5D689832FCFD143A7 /* Pods_EstimoteProximityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				26D707B321236F3800ACA916 /* EstimoteProximityTests */,
 				26D707BE21236F3800ACA916 /* EstimoteProximityUITests */,
 				26D7079D21236F3700ACA916 /* Products */,
+				F0A6E5D216BB9449CD1E6B99 /* Pods */,
+				BD11BF34CF610DF2B4FB43D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = EstimoteProximityUITests;
 			sourceTree = "<group>";
 		};
+		BD11BF34CF610DF2B4FB43D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD6EE69C7043521BBA92911F /* Pods_EstimoteProximity.framework */,
+				1B661D14CB15C38CCA01BCB3 /* Pods_EstimoteProximityTests.framework */,
+				C49F35124CB5C4271BB754B9 /* Pods_EstimoteProximityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0A6E5D216BB9449CD1E6B99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				795F576C73E89C5E379A871B /* Pods-EstimoteProximity.debug.xcconfig */,
+				A27595A7B9A386640DE15165 /* Pods-EstimoteProximity.release.xcconfig */,
+				8E1189227E4CB73A8F3F02EF /* Pods-EstimoteProximityTests.debug.xcconfig */,
+				6DB04F66CE6FE093129ACB5E /* Pods-EstimoteProximityTests.release.xcconfig */,
+				8453DE6EE6600D40E81768F1 /* Pods-EstimoteProximityUITests.debug.xcconfig */,
+				FD6E76B9A72B9C448A8160E8 /* Pods-EstimoteProximityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26D707C421236F3800ACA916 /* Build configuration list for PBXNativeTarget "EstimoteProximity" */;
 			buildPhases = (
+				716A024C4B6DB510B7AAA23B /* [CP] Check Pods Manifest.lock */,
 				26D7079821236F3700ACA916 /* Sources */,
 				26D7079921236F3700ACA916 /* Frameworks */,
 				26D7079A21236F3700ACA916 /* Resources */,
+				7A6B7C083F73B955AB3EBC32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26D707C721236F3800ACA916 /* Build configuration list for PBXNativeTarget "EstimoteProximityTests" */;
 			buildPhases = (
+				AA924BF4084D12900B22DB2D /* [CP] Check Pods Manifest.lock */,
 				26D707AC21236F3800ACA916 /* Sources */,
 				26D707AD21236F3800ACA916 /* Frameworks */,
 				26D707AE21236F3800ACA916 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26D707CA21236F3800ACA916 /* Build configuration list for PBXNativeTarget "EstimoteProximityUITests" */;
 			buildPhases = (
+				3C8F3887B4DBA5AA28F91166 /* [CP] Check Pods Manifest.lock */,
 				26D707B721236F3800ACA916 /* Sources */,
 				26D707B821236F3800ACA916 /* Frameworks */,
 				26D707B921236F3800ACA916 /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C8F3887B4DBA5AA28F91166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EstimoteProximityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		716A024C4B6DB510B7AAA23B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EstimoteProximity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6B7C083F73B955AB3EBC32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EstimoteProximity/Pods-EstimoteProximity-frameworks.sh",
+				"${PODS_ROOT}/EstimoteBluetoothScanning/EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework",
+				"${PODS_ROOT}/EstimoteProximitySDK/EstimoteProximitySDK/EstimoteProximitySDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteBluetoothScanning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EstimoteProximitySDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstimoteProximity/Pods-EstimoteProximity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA924BF4084D12900B22DB2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EstimoteProximityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26D7079821236F3700ACA916 /* Sources */ = {
@@ -428,6 +549,7 @@
 		};
 		26D707C521236F3800ACA916 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 795F576C73E89C5E379A871B /* Pods-EstimoteProximity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +568,7 @@
 		};
 		26D707C621236F3800ACA916 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27595A7B9A386640DE15165 /* Pods-EstimoteProximity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +587,7 @@
 		};
 		26D707C821236F3800ACA916 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1189227E4CB73A8F3F02EF /* Pods-EstimoteProximityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +609,7 @@
 		};
 		26D707C921236F3800ACA916 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB04F66CE6FE093129ACB5E /* Pods-EstimoteProximityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +631,7 @@
 		};
 		26D707CB21236F3800ACA916 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8453DE6EE6600D40E81768F1 /* Pods-EstimoteProximityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +652,7 @@
 		};
 		26D707CC21236F3800ACA916 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6E76B9A72B9C448A8160E8 /* Pods-EstimoteProximityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
